@@ -1,2 +1,2 @@
 # Login_Page
-With the help of HTML, CSS and JavaScript I have created a login page.
+With the help of HTML and CSS I have created a login page.
