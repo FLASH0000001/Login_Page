@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Permanent+Marker&family=Philosopher&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    /* border: 5px solid black; */
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+
+.container h3 {
+    font-size: 40px;
+    border-bottom: 3px solid rgb(84, 0, 137);
+    margin-bottom: 45px;
+    padding: 15px 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.box {
+    width: 100%;
+    /* border: 2px solid rgb(84, 0, 137); */
+    border-bottom: 2px solid rgb(84, 0, 137);
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.box input {
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    color: white;
+}
+
+.box i {
+    width: 30px;
+    /* float: left; */
+    text-align: center;
+    padding: 0px 8px;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+    background: none;
+    border: 2px solid rgb(40, 0, 65);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Croissant One', cursive;
+    padding: 8px 16px;
+}
+
+.btn:hover {
+    opacity: 0.4;
+    color: rgb(50, 0, 82);
+    background-color: white;
+}
